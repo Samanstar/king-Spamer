@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '2'
+VERSION = '3'
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -224,6 +224,7 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
+    "plugins",
     "admin"
     },
     sudo_users = {139946685,112524566,0,tonumber(our_id)},--Sudo users
@@ -231,6 +232,11 @@ function create_config( )
     moderation = {data = 'data/moderation.json'},
     about_text = [[TeleTard v3 - Close Source
 @TardTeamCh [persian]
+Admins:
+All Members of Tard
+Sudo:
+@ferisystem
+@mahdi17177
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -295,8 +301,7 @@ Realm Commands:
 !bc 123456789 Hello !
 ارسال متنی به آیدی گروه نامبرده شده
 ]],
-    help_text = [[
-لیست دستورات ⚡️TeleTard⚡️  :
+    help_text = [[لیست دستورات ⚡️TeleTard⚡️  :
 teletard
 توظیحات کامل بات ⚜
 
