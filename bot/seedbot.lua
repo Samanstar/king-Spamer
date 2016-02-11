@@ -230,7 +230,7 @@ function create_config( )
     sudo_users = {139946685,112524566,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TeleTard v3 - Close Source
+    about_text = [[Quchany v3 - Close Source
 @TardTeamCh [persian]
 Admins:
 All Members of Tard
@@ -239,187 +239,12 @@ Sudo:
 @mahdi17177
 ]],
     help_text_realm = [[
-Realm Commands:
-
-!creategroup [Name]
-ساخت گروه
-
-!createrealm [Name]
-ساخت حوزه
-
-!setname [Name]
-تغییر اسم 
-
-!setabout [GroupID] [Text]
-تغییر متن درباره گروهی
-
-!setrules [GroupID] [Text]
-تغییر قوانین گروهی
-
-!lock [GroupID] [setting]
-قفل کردن تنظیماتی از گروهی
-
-!unlock [GroupID] [setting]
-باز کردن قفل تنظیمات گروهی
-
-!wholist
-نمایش افراد در گروه
-
-!who
-نمایش افراد درگروه بصورت فایل 
-
-!type
-نمایش نوع گروه
-
-!kill chat [GroupID]
-حذف گروهی و حذف افراد آن
-
-!kill realm [RealmID]
-حذف یک حوزه و اعضا آن
-
-!addadmin [id|username]
-اضافه کردن کسی به ادمین های گلوبال با شناسه یا یوزرنیم
-
-!removeadmin [id|username]
-حذف کردن کسی از ادمین های گلوبال با شناسه یا یوزرنیم
-
-!list groups
-لیست گروهایی که ساخته شده تاکنون
-
-!list realms
-لیست حوزه هایی که ساخته شده تا کنون
-
-!log
-گزارشات گروه یا حوزه
-
-!broadcast [text]
-!broadcast Hello !
-ارسال متن به تمام گروها و حزوه ها
-مخصوص سودوها
-
-!bc [group_id] [text]
-!bc 123456789 Hello !
-ارسال متنی به آیدی گروه نامبرده شده
+دستوراش عین تله سیده...این ربات فقط برای خراب کردن گروه بدرد میخوره.
+@TardTeamCh
 ]],
-    help_text = [[لیست دستورات ⚡️TeleTard⚡️  :
-teletard
-توظیحات کامل بات ⚜
-
-ver
-ورژن بات و توظیحاتی درباره ان👑
-
-adminlist
-لیست ادمین های گلوبال  جز sudo ها👥
-- - - - - - - - - 
-linkpv 
-ارسال لینک گروه به پی وی👍
-
-newlink
-ساختن لینک جدید🛡
-
-link
-دادن لینک🛡
-- - - - - - - - - 
-kick [username|id]
-برای تنها اخراح کرد فرد مورد نظر ❌
-
-ban [ username|id]
-برای اخراج کردن دائمی فرد مورد نظر❌
-
-unban [id]
-خارج کردن از اخراج دائمی فرد مورد نظر❌
-
-banlist
-لیست بن شده ها☠
-- - - - - - - - - 
-modlist
-لیست مدیران داخل گروه 🕶
-
-promote [username]
-مدیر کردن فرد مورد نظر👥
-
-demote [username]
-خارج کردن از مدیرته فرد مورد نظر🔛
-- - - - - - - - - 
-kickme
-پاک کردن شما❌
-
-sikme
-پاک کردن شما🚷
-- - - - - - - - - 
-setphoto
-فرستادن عکس گروه و قفل کردن ان🌉
-
-setname [name]
-گزاشتن اسم گروه📄
-
-set rules <text>
-قرار دادن متن قانون گروه🔰
-
-set about <text>
-قرار دادن متن اطلاعات گروه📣
-- - - - - - - - - 
-lock [member|name|bots]
-قفل کردن [اعضا|اسم|ربات ها] 🔒
-
-unlock [member|name|photo|bots]
-خارج کردن از قفل [اعضا|اسم|ربات ها]🔓 
-- - - - - - - - - 
-settings
-تنظیمات گروه🛠
-- - - - - - - - - 
-owner
-ایدی مدیر اصلی گروه 👑
-
-setowner [id]
-عوض کردن مدیر اصلی گروه ♻️👑
-- - - - - - - - - 
-setflood [value]
-قرار دادن مقدار پیام تکراری👁‍🗨
-- - - - - - - - - 
-statslist
-مقدار پیام های داده شده در گروه (پیام)📝
-- - - - - - - - - 
-save [value] <text>
-ذخیره کلمه پیش فرض🖌
-
-get [value]
-دادن متن کلمه ی پیش مرض📌
-- - - - - - - - - 
-clean [modlist|rules|about]
-پاک کردن  [مدیران|قانون|اطلاعات]🚽
-- - - - - - - - - 
-res [username]
-دادن ایدی فرد مورد نظر به طور مثال 📎 :
-"res @username"
-- - - - - - - - - 
-id
-ایدی گروه🆔
-
-help
-لیست راهنمایی📄
-
-rules
-قوانین گروه➰
-
-about
-توظیحات گروه✍
-
-wholist
-لیست اعضای داخل گروه  👥
-
-info 
-لیست توظیحات درباره شخص (توجه فقط با ریپلی ان فرد)👁‍🗨
-
-hello to name
-سلام کردن به شخصی☑️
-
-txt2img <text>
-تبدیل متن به عکس 📝to🌅
-- - - - - - - - - 
-📣  شما میتوانید از ! و / و حتی بدون گزاشتن چیزی استفاده کنید.
-📣  تنها مدیران میتوانند ربات ادد کنند.
-📣 تنها معاونان و مدیران میتوانندجزییات مدیریتی گروه را تغییر دهند.
+    help_text = [[لیست دستورات:
+دستوراش عین تله سیده...این ربات فقط برای خراب کردن گروه بدرد میخوره.
+@TardTeamCh
 
 ]]
   }
