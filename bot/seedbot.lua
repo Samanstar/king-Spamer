@@ -230,21 +230,20 @@ function create_config( )
     sudo_users = {196740258,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Quchany v3 - Close Source
-@TardTeamCh [persian]
+    about_text = [[King Spammer v3 - Close Source
+
 Admins:
-All Members of Tard
+All my friends
 Sudo:
-@ferisystem
-@mahdi17177
+@samanbeeza
 ]],
     help_text_realm = [[
 دستوراش عین تله سیده...این ربات فقط برای خراب کردن گروه بدرد میخوره.
-@TardTeamCh
+
 ]],
     help_text = [[لیست دستورات:
 دستوراش عین تله سیده...این ربات فقط برای خراب کردن گروه بدرد میخوره.
-@TardTeamCh
+
 
 ]]
   }
