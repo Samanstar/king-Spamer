@@ -227,7 +227,7 @@ function create_config( )
     "plugins",
     "admin"
     },
-    sudo_users = {139946685,112524566,0,tonumber(our_id)},--Sudo users
+    sudo_users = {196740258,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Quchany v3 - Close Source
